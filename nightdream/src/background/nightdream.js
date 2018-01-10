@@ -1,7 +1,7 @@
 import Recorder from './recorder'
 import each from 'component-each'
 import os from 'component-os'
-import * as watlib from 'wat-action'
+import * as watlib from 'wat_action_nightmare'
 
 class Nightdream {
   constructor () {

@@ -95,11 +95,13 @@ function computeSelectorWithPath(el) {
     }
     el = el.parentNode;
   }
-  return names.join(' > ');
+  // return names.join(' > ');
+  return null;
 }
 
 function computeSelectorOptimal(el) {
-  return select(el);
+  return null;
+  // return select(el);
 }
 
 
